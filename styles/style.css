@@ -1,7 +1,7 @@
 .centralize {
     display: block;
     text-align: center;
-    padding-top: 150px;
+    padding-top: 95px;
 }
 
 ul {
@@ -60,6 +60,37 @@ li a{
 #sign-in a{
     color: #fff;
 }
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.search input[type=text] {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    font-family: arial, sans-serif;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none; 
+    border-radius: 24px;
+    height: 44px;
+    margin: 0 auto;
+    width: 482px; 
+    margin-top: 30px;
+
+}
+
+#search {
+    z-index: 1;
+    width: 17px;
+    opacity: 50%;
+    margin-left: 240px;
+    margin-top: 0px;
+}
+
 /* .button {
     background:none;
     border:none;
