@@ -2,6 +2,7 @@
     display: block;
     text-align: center;
     padding-top: 95px;
+    max-width: 100%;
 }
 
 ul {
@@ -10,7 +11,6 @@ ul {
     padding: 0;
     font-family: Arial, sans-serif;
     font-size: 13px;
-    
 }
 
 li {
@@ -22,6 +22,14 @@ li a{
     color: #222;
 }
 
+.top-left {
+    float: left;
+    margin-top:15px;
+}
+
+.top-right {
+    float: right;
+}
 #google-apps {
     background-image: url('//ssl.gstatic.com/gb/images/i1_1967ca6a.png');
     background-size: 528px 68px;
@@ -124,4 +132,12 @@ input[type=text] {
 .footer li a{
     font-size: 14px;
     color: #5f6368;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
 }

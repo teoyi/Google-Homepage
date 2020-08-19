@@ -2,22 +2,36 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
         <title>Google Home Page Replication</title>
         <link href="styles/style.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     </head>
     <body>
-        <div>
+        <div class="nav">
             <ul>
-                <li style="padding-left: 17px;"><a href="" style="text-decoration: none;">About</a></li>
+                <div class="top-left">
+                    <li style="padding-left: 17px;"><a href="" style="text-decoration: none;">About</a></li>
+                    <li style="padding-left: 12px;"><a href="" style="text-decoration: none;">Store</a></li>
+            
+                </div>
+                <div class="top-right">
+                    <li style=""><a href="" style="text-decoration: none;">Gmail</a></li>
+                    <li style="padding-left: 15px;"><a href="" style="text-decoration: none;">Images</a></li>
+                    <li id="google-apps" style="padding-left: 15px;"><a href="" style="text-decoration: none;"></a></li>
+                    <li id="sign-in" style="padding-left: 12px;"><a href="" style="text-decoration: none;">Sign In</a></li>
+
+                </div>
+                <!-- <li style="padding-left: 17px;"><a href="" style="text-decoration: none;">About</a></li>
                 <li style="padding-left: 12px;"><a href="" style="text-decoration: none;">Store</a></li>
                 <li style="padding-left: 605px;"><a href="" style="text-decoration: none;">Gmail</a></li>
                 <li style="padding-left: 15px;"><a href="" style="text-decoration: none;">Images</a></li>
                 <li id="google-apps" style="padding-left: 15px;"><a href="" style="text-decoration: none;"></a></li>
-                <li id="sign-in" style="padding-left: 12px;"><a href="" style="text-decoration: none;">Sign In</a></li>
+                <li id="sign-in" style="padding-left: 12px;"><a href="" style="text-decoration: none;">Sign In</a></li> -->
 
             </ul>
         </div>
+
         <div class = "logo">
             <img src="images/google logo.png" alt="The Google logo: Colorized letters, exported from www.google.com">
         </div>
@@ -31,13 +45,16 @@
 
         <div class="footer">
             <ul>
-                <li style="padding-left: 27px;"><a href="" style="text-decoration: none;">Advertising</a></li>
-                <li style="padding-left: 20px;"><a href="" style="text-decoration: none;">Business</a></li>
-                <li style="padding-left: 20px;"><a href="" style="text-decoration: none;">How Search Works</a></li>
-                <li style="padding-left: 440px;"><a href="" style="text-decoration: none;">Privacy</a></li>
-                <li style="padding-left: 20px;"><a href="" style="text-decoration: none;">Terms</a></li>
-                <li style="padding-left: 20px;"><a href="" style="text-decoration: none;">Settings</a></li>
-
+                <div class="left">
+                    <li style="padding-left: 27px;"><a href="" style="text-decoration: none;">Advertising</a></li>
+                    <li style="padding-left: 20px;"><a href="" style="text-decoration: none;">Business</a></li>
+                    <li style="padding-left: 20px;"><a href="" style="text-decoration: none;">How Search Works</a></li>
+                </div>
+                <div class="right">
+                    <li style=""><a href="" style="text-decoration: none;">Privacy</a></li>
+                    <li style="padding-left: 20px;"><a href="" style="text-decoration: none;">Terms</a></li>
+                    <li style="padding-right: 2px; padding-left: 20px"><a href="" style="text-decoration: none;">Settings</a></li>
+                </div>
             </ul>
         </div>
     </body>
